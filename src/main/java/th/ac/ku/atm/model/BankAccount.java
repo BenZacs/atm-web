@@ -7,7 +7,6 @@ public class BankAccount {
     private String type;
     private double balance;
 
-    //  ..Generate.. Getters, Setters, toString()
     public BankAccount(int id, int customerId, String type, double balance) {
         this.id = id;
         this.customerId = customerId;
@@ -31,19 +30,17 @@ public class BankAccount {
         this.customerId = customerId;
     }
 
-    public String getType() {
-        return type;
-    }
+    public String getType() { return type; }
 
     public void setType(String type) {
         this.type = type;
     }
-    public double getBalance(){
-        return balance;
-    }
 
-    public void setBalance(double balance){
+    public double getBalance() { return balance; }
+
+    public void setBalance(double balance) {
         this.balance = balance;
     }
+
 }
 

@@ -12,12 +12,11 @@ import th.ac.ku.atm.service.CustomerService;
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
-
     private CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
-    }
+        }
 
     @GetMapping
     public String getCustomerPage(Model model) {
@@ -32,3 +31,5 @@ public class CustomerController {
         return "redirect:customer";
     }
 }
+
+
