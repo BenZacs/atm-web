@@ -9,6 +9,7 @@ public class BankAccount {
     private int customerId;
     private String type;
     private double balance;
+    
 
     public int getId() {
         return id;
